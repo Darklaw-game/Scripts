@@ -28,7 +28,7 @@ local entity = spawner.Create({
 
 		Name = "A-60",
 
-		Asset = "https://github.com/Idk-lol2/chill-seek/blob/main/chillseeklol.rbxm?raw=true",
+		Asset = "https://github.com/Idk-lol2/Seek/blob/main/seeklolv5.rbxm?raw=true",
 
 		HeightOffset = 0
 
@@ -52,7 +52,7 @@ local entity = spawner.Create({
 
 	Earthquake = {
 
-		Enabled = true
+		Enabled = false
 
 	},
 
@@ -68,7 +68,7 @@ local entity = spawner.Create({
 
 	Movement = {
 
-		Speed = 6,
+		Speed = 10,
 
 		Delay = 5,
 
@@ -114,11 +114,11 @@ local entity = spawner.Create({
 
 	Death = {
 
-		Type = "Guiding", -- "Curious"
+		Type = "Curious", -- "Guiding"
 
-		Hints = {"you Death from", "A-60", "lol", "By l_0"},
+		Hints = {"Hello!", "i am a light", "my brother guiding light always takes the lead, so my turn", "but first i must take care of him"},
 
-		Cause = "skibidi"
+		Cause = "Curious Light"
 
 	}
 
