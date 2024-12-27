@@ -92,7 +92,7 @@ local entity = spawner.Create({
 
 	Damage = {
 
-		Enabled = false,
+		Enabled = true,
 
 		Range = 40,
 
