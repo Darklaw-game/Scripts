@@ -3,5 +3,5 @@ local Window = Library.CreateLib("Testing", "Midnight")
 
 
 --main
-local Main = Window:NewTab("Main")
+local Main = Window:NewTab("Mainh")
 local MainSection = Main:NewSection("Main")
