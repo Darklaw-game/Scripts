@@ -7,5 +7,5 @@ local Main = Window:NewTab("Local")
 local MainSection = Main:NewSection("Main")
 
 MainSection:NewButton("Kick", "Kicky", function()
-    game.player.Localplayer:kick("Lol")
+    game.player:Localplayer.kick("Lol")
 end)
