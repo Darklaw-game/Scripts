@@ -4,6 +4,6 @@ local Tab = Window:NewTab("Local")
 Section:NewButton("ButtonText", "ButtonInfo", function()
     print("Clicked")
 end)
-Section:Testing("SliderText", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+Section:Local("SliderText", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
