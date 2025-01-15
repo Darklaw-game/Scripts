@@ -44,34 +44,6 @@ Rayfield:Notify({
 },
 })
 
-local Button = Tab:CreateButton({
-   Name = "tptool",
-   Callback = function()
-			https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/invis.lua
-   -- The function that takes place when the button is pressed
-   end,
-})
-
-
-		local Button = Tab:CreateButton({
-   Name = "fly",
-   Callback = function()
-			https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/FLyguiV3.lua
-   -- The function that takes place when the button is pressed
-   end,
-})
-				
-local Slider = MainTab:CreateSlider({
-   Name = "WalkSpeed Slider",
-   Range = {1, 350},
-   Increment = 1,
-   Suffix = "Speed",
-   CurrentValue = 16,
-   Flag = "sliderws", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-   Callback = function(Value)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
-   end,
-})
 
 local Slider = MainTab:CreateSlider({
    Name = "JumpPower Slider",
