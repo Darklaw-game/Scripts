@@ -40,14 +40,19 @@ Rayfield:Notify({
          Callback = function()
          print("The user tapped Okay!")
       end
-   },
+     },
 },
 })
 
-local Button = Tab:CreateButton({
-   Name = "tptool",
+local Button = MainTab:CreateButton({
+   Name = "Infinite Jump Toggle",
    Callback = function()
-         https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/invis.lua
+       https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/invis.lua
+   end,
+			end
+		end
+	end)
+end
    end,
 })
 
