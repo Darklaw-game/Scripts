@@ -44,19 +44,22 @@ Rayfield:Notify({
 },
 })
 
-local Button = MainTab:CreateButton({
-   Name = "Invis tool",
+local Button = Tab:CreateButton({
+   Name = "tptool",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/invis.lua",true))()
-		end
+			https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/invis.lua
+   -- The function that takes place when the button is pressed
+   end,
+})
 
 
-		local Button = MainTab:CreateButton({
-   Name = "fly guiV3",
+		local Button = Tab:CreateButton({
+   Name = "fly",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/FLyguiV3.lua",true))()
-
-				end
+			https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/FLyguiV3.lua
+   -- The function that takes place when the button is pressed
+   end,
+})
 				
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Slider",
