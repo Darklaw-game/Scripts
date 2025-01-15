@@ -46,15 +46,13 @@ Rayfield:Notify({
 
 
 
-			local Button = MainTab:CreateButton({
-   Name = "Rochips universal",
+local Button = MainTab:CreateButton({
+   Name = "Rochips admin cmds",
    Callback = function()
    -- The function that takes place when the button is pressed
-						if "you wanna use rochips universal" then
-	local z_x,z_z="gzrux646yj/raw/main.ts","https://glot.io/snippets/"
-	local im,lonely,z_c=task.wait,game,loadstring
-	z_c(lonely:HttpGet(z_z..""..z_x))()
-	return ("This will load in about 2 - 30 seconds" or "according to your device and executor")
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/new/refs/heads/main/cmd.lua"))()
+
+
 end
 
 local Button = MainTab:CreateButton({
