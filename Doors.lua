@@ -60,13 +60,6 @@ tool.Parent = game.Players.LocalPlayer.Backpack
    end,
 })
 
-
-		local Button = Tab:CreateButton({
-   Name = "fly",
-   Callback = function()
-			https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/FLyguiV3.lua
-   end,
-})
 				
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Slider",
