@@ -47,8 +47,7 @@ Rayfield:Notify({
 local Button = Tab:CreateButton({
    Name = "tptool",
    Callback = function()
-			https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/invis.lua
-   -- The function that takes place when the button is pressed
+         https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/invis.lua
    end,
 })
 
@@ -57,7 +56,6 @@ local Button = Tab:CreateButton({
    Name = "fly",
    Callback = function()
 			https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/FLyguiV3.lua
-   -- The function that takes place when the button is pressed
    end,
 })
 				
