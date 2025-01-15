@@ -61,7 +61,7 @@ end,
 
 
 local Button = MainTab:CreateButton({
-   Name = "Infinite Jump Toggle",
+   Name = "Flight gui V3",
    Callback = function()
        --Activates the flight guiV3
 local main = Instance.new("ScreenGui")
