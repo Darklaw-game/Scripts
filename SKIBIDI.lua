@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
       Invite = "TK4hZuMddh", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
-   KeySystem = true, -- Set this to true to use our key system
+   KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
       Title = "Key | Youtube Hub",
       Subtitle = "Key System",
@@ -46,7 +46,7 @@ Rayfield:Notify({
 
 
 local Button = MainTab:CreateButton({
-   Name = "Button Example",
+   Name = "Teleport Tool",
    Callback = function()
    -- The function that takes place when the button is pressed
          mouse = game.Players.LocalPlayer:GetMouse()
