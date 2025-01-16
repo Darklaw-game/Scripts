@@ -46,11 +46,7 @@ Rayfield:Notify({
 
 
 
-local Button = MainTab:CreateButton({
-   Name = "Rochips admin cmds",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/new/refs/heads/main/cmd.lua"))()
+
 
 
 end
