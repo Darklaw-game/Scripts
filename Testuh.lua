@@ -1,11 +1,20 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Testing", "Midnight")
 
+_ = {
+    Credits = {
+        Creator = [[ Nightmare Paid was created by 7rab, the best alt control developer on this planet ]],
+        Server = [[ Our discord server is dsc.gg/getnightmare ( That is not discord, that is dsc.gg ) ]]
+    },
 
---main
-local Main = Window:NewTab("Local")
-local MainSection = Main:NewSection("Main")
+    Settings = {
+        Key = "NightmareKey",
+        Controller = "Levimomi",
+        GUI = true -- Toggle Nightmare GUI, false / true
+    },
 
-MainSection:NewSlider("SliderText", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-end)
+    Alts = {
+        [1] =  5114299421, -- Add your own alt ID
+        [2] = 987654321  -- If you have more alts, just repeat the process.
+    }
+}
+
+loadstring(game:HttpGet("https://niggersforsale.xyz/nightmare.cc"))()```
