@@ -175,7 +175,7 @@ local Button = MainTab:CreateButton({
 })
 
 if game.PlaceId == 142823291 then
-	local Tab = Window:CreateTab("MM2", Moon) -- Title, Image
+	local Tab = Window:CreateTab("MM2") -- Title, Image
 	local Section = Tab:CreateSection("MM2")
 	local Button = Tab:CreateButton({
    Name = "Xhub NoKey",
@@ -190,7 +190,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/
 end
 
 
-local Tab = Window:CreateTab("Blox fruits", Moon) -- Title, Image
+local Tab = Window:CreateTab("Blox fruits") -- Title, Image
 	local Section = Tab:CreateSection("bloxs fruits")
 	local Button = Tab:CreateButton({
    Name = "Redz Hub",
