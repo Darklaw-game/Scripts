@@ -25,12 +25,12 @@ LoadingText.BackgroundTransparency = 1
 LoadingText.Font = Enum.Font.GothamBold
 LoadingText.TextColor3 = Color3.new(1, 1, 1)
 LoadingText.TextSize = 18
-LoadingText.Text = "This script was made by Kr0n1k ;)"
+LoadingText.Text = "This script was made by DarkHub;)"
 LoadingText.Parent = LoadingFrame
 
 -- Function to show loading sequence
 local function showLoadingSequence(isGoodbye)
-    local text = isGoodbye and "Goodbye!" or "This script was made by Kr0n1k ;)"
+    local text = isGoodbye and "Goodbye!" or "This script was made by darkhub ;)"
     LoadingText.Text = text
     LoadingFrame.Position = UDim2.new(0.5, -150, 1.5, 0)
     local goal = {}
