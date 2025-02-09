@@ -597,10 +597,19 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Rochips Admin Commands",
+   Name = "Rochips Universal (Old,No more updates)",
    Callback = function()
    -- The function that takes place when the button is pressed
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/Ropannel.lua",true))()
+			end,
+})
+
+
+local Button = MainTab:CreateButton({
+   Name = "Rochips Pannel (New and has updates)",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/load/refs/heads/main/rcloader"))()
 			end,
 })
 			
