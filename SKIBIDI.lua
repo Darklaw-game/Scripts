@@ -16,11 +16,11 @@ local Window = Rayfield:CreateWindow({
    },
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Key | Youtube Hub",
+      Title = "Key | DarkHub",
       Subtitle = "Key System",
-      Note = "Key In Discord Server",
+      Note = "Key Is darkhub",
       FileName = "YoutubeHubKey1", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
       Key = {"darkhub"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
@@ -550,13 +550,7 @@ end)
    end,
 })
 
-local Button = MainTab:CreateButton({
-   Name = "Rochips Admin Commands",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/new/refs/heads/main/cmd.lua"))()
-			   end,
-})
+
 
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Slider",
@@ -592,7 +586,15 @@ local Slider = MainTab:CreateSlider({
    end,
 })
 
+local MainSection = MainTab:CreateSection("Rochips")
 
+local Button = MainTab:CreateButton({
+   Name = "Rochips Admin Commands",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/new/refs/heads/main/cmd.lua"))()
+			   end,
+})
 
 
 
