@@ -596,6 +596,48 @@ local Button = MainTab:CreateButton({
 			   end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Rochips Admin Commands",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+			local pastebin, Rochips_Panel = "https://glot.io/snippets", "gw".."wv".."87".."7g".."a3/r".."aw".."/ma".."in.lu".."a" --funny moment
+loadstring(game:HttpGet(pastebin.."/"..Rochips_Panel))()
+--//takes about 1-8 minutes to load//--
+			end,
+})
+			
 
 
 local TPTab = Window:CreateTab("Misc", nil) -- Title, Image
+
+local MainSection = MainTab:CreateSection("Misk")
+
+local Button = MainTab:CreateButton({
+   Name = "Inf jump",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+			loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Jump.txt"))()
+			end,
+})
+
+
+local Button = MainTab:CreateButton({
+   Name = "Player Menu",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/tpplayer.lua",true))()
+
+
+			end,
+})
+
+
+local Button = MainTab:CreateButton({
+   Name = "Player Menu",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/Sense.lua",true))()
+         end,
+})
+		
