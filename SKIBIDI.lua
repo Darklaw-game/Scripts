@@ -190,8 +190,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/
 end
 
 
- if game.PlaceId == 7449423635 then
-				local Tab = Window:CreateTab("Blox fruits", Moon) -- Title, Image
+local Tab = Window:CreateTab("Blox fruits", Moon) -- Title, Image
 	local Section = Tab:CreateSection("bloxs fruits")
 	local Button = Tab:CreateButton({
    Name = "Redz Hub",
@@ -200,35 +199,3 @@ end
 							loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))() 
 						end,
 					})
-
-
-			end
-
-
-
- if game.PlaceId == 4442272183 then
-				local Tab = Window:CreateTab("Blox fruits", Moon) -- Title, Image
-	local Section = Tab:CreateSection("bloxs fruits")
-	local Button = Tab:CreateButton({
-   Name = "Redz Hub",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-							loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))() 
-						end,
-					})
-
-
-			end
-
-
- if game.PlaceId == 2753915549 then
-				local Tab = Window:CreateTab("Blox fruits", Moon) -- Title, Image
-	local Section = Tab:CreateSection("bloxs fruits")
-	local Button = Tab:CreateButton({
-   Name = "Redz Hub",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-							loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))() 
-						end,
-					})
-
