@@ -199,3 +199,4 @@ local Tab = Window:CreateTab("Blox fruits", Moon) -- Title, Image
 							loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))() 
 						end,
 					})
+		end
