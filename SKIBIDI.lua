@@ -58,7 +58,7 @@ local Button = MainTab:CreateButton({
          mouse = game.Players.LocalPlayer:GetMouse()
 tool = Instance.new("Tool")
 tool.RequiresHandle = false
-tool.Name = "TP TOOL"
+tool.Name = "Tp tool"
 tool.Activated:connect(function()
 local pos = mouse.Hit+Vector3.new(0,2.5,0)
 pos = CFrame.new(pos.X,pos.Y,pos.Z)
@@ -550,6 +550,14 @@ end)
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Rochips Admin Commands",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/new/refs/heads/main/cmd.lua"))()
+			   end,
+})
+
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Slider",
    Range = {1, 350},
@@ -587,4 +595,5 @@ local Slider = MainTab:CreateSlider({
 
 
 
-local TPTab = Window:CreateTab("🎲 Misc", nil) -- Title, Image
+
+local TPTab = Window:CreateTab("Misc", nil) -- Title, Image
