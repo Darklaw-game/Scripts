@@ -649,5 +649,12 @@ local Button = MainTab:CreateButton({
          end,
 })
 
+local Tab = Window:CreateTab("MM2", Moon) -- Title, Image
 
-		
+
+local Section = Tab:CreateSection("MM2")
+if game.PlaceId == 142823291 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+else
+	warn("Wrong Game")
+end
