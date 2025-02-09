@@ -175,7 +175,7 @@ local Button = MainTab:CreateButton({
 })
 
 if game.PlaceId == 142823291 then
-	local Tab = Window:CreateTab("MM2", moon) -- Title, Image
+	local Tab = Window:CreateTab("MM2", nil) -- Title, Image
 	local Section = Tab:CreateSection("MM2")
 	local Button = Tab:CreateButton({
    Name = "Xhub NoKey",
