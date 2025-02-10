@@ -189,16 +189,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/
 
 end
 
-
-local Tab = Window:CreateTab("Blox fruits", nil) -- Title, Image
-	local Section = Tab:CreateSection("bloxs fruits")
-	local Button = Tab:CreateButton({
-   Name = "Redz Hub",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-						
-							loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
-					end,
 				})
 
 
