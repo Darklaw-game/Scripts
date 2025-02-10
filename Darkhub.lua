@@ -62,14 +62,6 @@ local Button = MainTab:CreateButton({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Teleport ToolGUI",
-   Callback = function()
-      -- The function that takes place when the button is pressed
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/tpbutton.lua",true))()
-   end,
-})
-
-local Button = MainTab:CreateButton({
    Name = "Flight gui V3",
    Callback = function()
       -- Activates the flight guiV3
@@ -172,5 +164,7 @@ if game.Id=142823291 then
    Callback = function()
       -- The function that takes place when the button is pressed
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+         else
+            print("Hi")
    end,
 })
