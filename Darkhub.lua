@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Tab = Window:CreateTab("Universal", "binary")
+local Tab = Window:CreateTab("Main", "binary")
 local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
