@@ -44,7 +44,7 @@ Rayfield:Notify({
    },
 })
 
-local Button = MainTab:CreateButton({
+local Button = UniversalTab:CreateButton({
    Name = "Teleport Tool",
    Callback = function()
       -- The function that takes place when the button is pressed
@@ -61,7 +61,7 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local Button = MainTab:CreateButton({
+local Button = UniversalTab:CreateButton({
    Name = "Flight gui V3",
    Callback = function()
       -- Activates the flight guiV3
@@ -69,7 +69,7 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local Slider = MainTab:CreateSlider({
+local Slider = UniversalTab:CreateSlider({
    Name = "WalkSpeed Slider",
    Range = {1, 350},
    Increment = 1,
@@ -81,7 +81,7 @@ local Slider = MainTab:CreateSlider({
    end,
 })
 
-local Input = MainTab:CreateInput({
+local Input = UniversalTab:CreateInput({
    Name = "Walkspeed",
    PlaceholderText = "1-500",
    RemoveTextAfterFocusLost = true,
@@ -90,7 +90,7 @@ local Input = MainTab:CreateInput({
    end,
 })
 
-local Slider = MainTab:CreateSlider({
+local Slider = UniversalTab:CreateSlider({
    Name = "JumpPower Slider",
    Range = {1, 350},
    Increment = 1,
@@ -102,7 +102,7 @@ local Slider = MainTab:CreateSlider({
    end,
 })
 
-local MainSection = MainTab:CreateSection("Rochips")
+local MainSection = UniversalTab:CreateSection("Rochips")
 
 local Button = MainTab:CreateButton({
    Name = "Rochips Admin Commands",
@@ -112,7 +112,7 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local Button = MainTab:CreateButton({
+local Button = UniversalTab:CreateButton({
    Name = "Rochips Universal (Old, No more updates)",
    Callback = function()
       -- The function that takes place when the button is pressed
@@ -120,7 +120,7 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local Button = MainTab:CreateButton({
+local Button = UniversalTab:CreateButton({
    Name = "Rochips Pannel (New and has updates)",
    Callback = function()
       -- The function that takes place when the button is pressed
