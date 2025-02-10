@@ -148,7 +148,6 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-  local Tab = Window:CreateTab("MM2", "Moon")
    local Section = Tab:CreateSection("MM2")
    local Button = MainTab:CreateButton({
    Name = "XHub No key",
