@@ -174,23 +174,14 @@ local Button = MainTab:CreateButton({
          end,
 })
 
-if game.PlaceId == 142823291 then
-	local Tab = Window:CreateTab("MM2", nil) -- Title, Image
-	local Section = Tab:CreateSection("MM2")
-	local Button = Tab:CreateButton({
-   Name = "Xhub NoKey",
+if Place.Id == 142823291 then
+				local Tab = Window:CreateTab("Murder Mystery 2", 4483362458) -- Title, Image
+				local Section = Tab:CreateSection("Main")
+				local Button = Tab:CreateButton({
+						Name = "MM2",
    Callback = function()
    -- The function that takes place when the button is pressed
-				
+							
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
-   end,
+						end,
 })
-
-
-end
-
-				})
-
-
-		end
-				
