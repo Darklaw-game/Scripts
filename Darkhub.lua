@@ -148,7 +148,6 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-if game.Id == 142823291 then
   local Tab = Window:CreateTab("MM2", "Moon")
    local Section = Tab:CreateSection("MM2")
    local Button = MainTab:CreateButton({
@@ -156,7 +155,5 @@ if game.Id == 142823291 then
    Callback = function()
       -- The function that takes place when the button is pressed
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
-         else
-            print("HI")
    end,
 })
