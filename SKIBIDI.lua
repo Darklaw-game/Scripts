@@ -196,7 +196,11 @@ local Tab = Window:CreateTab("Blox fruits", nil) -- Title, Image
    Name = "Redz Hub",
    Callback = function()
    -- The function that takes place when the button is pressed
-							loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))() 
-					end
+						
+							loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+					end,
 				})
+
+
 		end
+				
