@@ -38,44 +38,36 @@ Rayfield:Notify({
       Ignore = {
          Name = "Okay!",
          Callback = function()
-         print("The user tapped Okay!")
-      end
+            print("The user tapped Okay!")
+         end
+      },
    },
-},
 })
-
-
-
-
-
-
-
 
 local Button = MainTab:CreateButton({
    Name = "Teleport Tool",
    Callback = function()
-   -- The function that takes place when the button is pressed
-         mouse = game.Players.LocalPlayer:GetMouse()
-tool = Instance.new("Tool")
-tool.RequiresHandle = false
-tool.Name = "Tp tool"
-tool.Activated:connect(function()
-local pos = mouse.Hit+Vector3.new(0,2.5,0)
-pos = CFrame.new(pos.X,pos.Y,pos.Z)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
-end)
-tool.Parent = game.Players.LocalPlayer.Backpack
+      -- The function that takes place when the button is pressed
+      local mouse = game.Players.LocalPlayer:GetMouse()
+      local tool = Instance.new("Tool")
+      tool.RequiresHandle = false
+      tool.Name = "Tp tool"
+      tool.Activated:connect(function()
+         local pos = mouse.Hit + Vector3.new(0, 2.5, 0)
+         pos = CFrame.new(pos.X, pos.Y, pos.Z)
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+      end)
+      tool.Parent = game.Players.LocalPlayer.Backpack
    end,
 })
-
 
 local Button = MainTab:CreateButton({
    Name = "Flight gui V3",
    Callback = function()
-       --Activates the flight guiV3
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/FLyguiV3.lua",true))()
-
-
+      -- Activates the flight guiV3
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/FLyguiV3.lua", true))()
+   end,
+})
 
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Slider",
@@ -85,7 +77,7 @@ local Slider = MainTab:CreateSlider({
    CurrentValue = 16,
    Flag = "sliderws", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
+      game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Value)
    end,
 })
 
@@ -94,10 +86,9 @@ local Input = MainTab:CreateInput({
    PlaceholderText = "1-500",
    RemoveTextAfterFocusLost = true,
    Callback = function(Text)
-        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Text)
+      game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Text)
    end,
 })
-
 
 local Slider = MainTab:CreateSlider({
    Name = "JumpPower Slider",
@@ -107,7 +98,7 @@ local Slider = MainTab:CreateSlider({
    CurrentValue = 16,
    Flag = "sliderjp", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-        game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
+      game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
    end,
 })
 
@@ -116,60 +107,51 @@ local MainSection = MainTab:CreateSection("Rochips")
 local Button = MainTab:CreateButton({
    Name = "Rochips Admin Commands",
    Callback = function()
-   -- The function that takes place when the button is pressed
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/new/refs/heads/main/cmd.lua"))()
-			   end,
+      -- The function that takes place when the button is pressed
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/new/refs/heads/main/cmd.lua"))()
+   end,
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Rochips Universal (Old,No more updates)",
+   Name = "Rochips Universal (Old, No more updates)",
    Callback = function()
-   -- The function that takes place when the button is pressed
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/Ropannel.lua",true))()
-			end,
+      -- The function that takes place when the button is pressed
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/Ropannel.lua", true))()
+   end,
 })
-
 
 local Button = MainTab:CreateButton({
    Name = "Rochips Pannel (New and has updates)",
    Callback = function()
-   -- The function that takes place when the button is pressed
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/load/refs/heads/main/rcloader"))()
-			end,
+      -- The function that takes place when the button is pressed
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/load/refs/heads/main/rcloader"))()
+   end,
 })
-			
-
 
 local TPTab = Window:CreateTab("Misc", nil) -- Title, Image
 
-local MainSection = MainTab:CreateSection("Misk")
+local MainSection = MainTab:CreateSection("Misc")
 
 local Button = MainTab:CreateButton({
    Name = "Inf jump",
    Callback = function()
-   -- The function that takes place when the button is pressed
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/infjump.lua",true))()
-			
-			end,
+      -- The function that takes place when the button is pressed
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/infjump.lua", true))()
+   end,
 })
-
 
 local Button = MainTab:CreateButton({
    Name = "Player Menu",
    Callback = function()
-   -- The function that takes place when the button is pressed
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/tpplayer.lua",true))()
-
-
-			end,
+      -- The function that takes place when the button is pressed
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/tpplayer.lua", true))()
+   end,
 })
-
 
 local Button = MainTab:CreateButton({
    Name = "sense",
    Callback = function()
-   -- The function that takes place when the button is pressed
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/Sense.lua",true))()
-         end,
+      -- The function that takes place when the button is pressed
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/Sense.lua", true))()
+   end,
 })
