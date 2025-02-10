@@ -173,15 +173,3 @@ local Button = MainTab:CreateButton({
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/Sense.lua",true))()
          end,
 })
-
-if Place.Id == 142823291 then
-				local Tab = Window:CreateTab("Murder Mystery 2", 4483362458) -- Title, Image
-				local Section = Tab:CreateSection("Main")
-				local Button = Tab:CreateButton({
-						Name = "MM2",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-							
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
-						end,
-})
