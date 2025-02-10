@@ -148,10 +148,13 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local Button = MainTab:CreateButton({
-   Name = "sense",
+if game.Id == 142823291 then
+  local Tab = Window:CreateTab("MM2", "Moon")
+   local Section = Tab:CreateSection("MM2")
+   local Button = MainTab:CreateButton({
+   Name = "XHub No key",
    Callback = function()
       -- The function that takes place when the button is pressed
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/Sense.lua", true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
    end,
 })
