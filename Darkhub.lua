@@ -44,7 +44,7 @@ Rayfield:Notify({
    },
 })
 
-local Button = UniversalTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Teleport Tool",
    Callback = function()
       -- The function that takes place when the button is pressed
@@ -61,7 +61,7 @@ local Button = UniversalTab:CreateButton({
    end,
 })
 
-local Button = UniversalTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Flight gui V3",
    Callback = function()
       -- Activates the flight guiV3
@@ -69,7 +69,7 @@ local Button = UniversalTab:CreateButton({
    end,
 })
 
-local Slider = UniversalTab:CreateSlider({
+local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Slider",
    Range = {1, 350},
    Increment = 1,
@@ -81,7 +81,7 @@ local Slider = UniversalTab:CreateSlider({
    end,
 })
 
-local Input = UniversalTab:CreateInput({
+local Input = MainTab:CreateInput({
    Name = "Walkspeed",
    PlaceholderText = "1-500",
    RemoveTextAfterFocusLost = true,
@@ -90,7 +90,7 @@ local Input = UniversalTab:CreateInput({
    end,
 })
 
-local Slider = UniversalTab:CreateSlider({
+local Slider = MainTab:CreateSlider({
    Name = "JumpPower Slider",
    Range = {1, 350},
    Increment = 1,
@@ -102,7 +102,7 @@ local Slider = UniversalTab:CreateSlider({
    end,
 })
 
-local MainSection = UniversalTab:CreateSection("Rochips")
+local MainSection = MainTab:CreateSection("Rochips")
 
 local Button = MainTab:CreateButton({
    Name = "Rochips Admin Commands",
@@ -112,7 +112,7 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local Button = UniversalTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Rochips Universal (Old, No more updates)",
    Callback = function()
       -- The function that takes place when the button is pressed
@@ -120,7 +120,7 @@ local Button = UniversalTab:CreateButton({
    end,
 })
 
-local Button = UniversalTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Rochips Pannel (New and has updates)",
    Callback = function()
       -- The function that takes place when the button is pressed
