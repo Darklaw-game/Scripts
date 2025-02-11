@@ -150,7 +150,7 @@ local Button = MainTab:CreateButton({
 
 if game.placeId == 142823291 
    then
-   local Tab = Window:CreateTab("MM2", 4483362458) -- Title, Image
+   local Tab = Window:CreateTab("MM2", Nil) -- Title, Image
    local Section = Tab:CreateSection("MM2")
    local Button = Tab:CreateButton({
    Name = "MM2",
