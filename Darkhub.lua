@@ -148,7 +148,7 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-   local Section = Tab:CreateSection("MM2")
+   local MainSection = MainTab:CreateSection("MM2")
    local Button = MainTab:CreateButton({
    Name = "XHub No key",
    Callback = function()
