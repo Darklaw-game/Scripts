@@ -150,9 +150,9 @@ local Button = MainTab:CreateButton({
 
 if game.placeId == 142823291 
    then
-   local Tab = Window:CreateTab("MM2", "Moon")
+   local Tab = Window:CreateTab("MM2", 4483362458) -- Title, Image
    local Section = Tab:CreateSection("MM2")
-   local Button = mm2Tab:CreateButton({
+   local Button = Tab:CreateButton({
    Name = "MM2",
    Callback = function()
    -- The function that takes place when the button is pressed
