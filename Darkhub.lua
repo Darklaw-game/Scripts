@@ -148,11 +148,17 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-   local MainSection = MainTab:CreateSection("MM2")
-   local Button = MainTab:CreateButton({
-   Name = "XHub No key",
+if game.placeId == 142823291 
+   then
+   local Tab = Window:CreateTab("MM2", "Moon")
+   local Section = Tab:CreateSection("MM2")
+   local Button = MM2Tab:CreateButton({
+   Name = "MM2",
    Callback = function()
-      -- The function that takes place when the button is pressed
+   -- The function that takes place when the button is pressed
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
    end,
 })
+else
+   warn("Wrong Game")
+end
