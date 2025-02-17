@@ -148,8 +148,6 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-if game.placeId == 142823291 
-   then
    local Tab = Window:CreateTab("MM2", Nil) -- Title, Image
    local Section = Tab:CreateSection("MM2")
    local Button = Tab:CreateButton({
@@ -160,11 +158,8 @@ if game.placeId == 142823291
    end,
 })
 else
-   warn("Wrong Game")
-end
 
 
-   local Tab = Window:CreateTab("Doors", Nil) -- Title, Image
 
    local Section = Tab:CreateSection("Doors")
 
