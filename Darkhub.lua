@@ -164,47 +164,37 @@ else
 end
 
 
-if game.placeId == 6516141723
-   then
    local Tab = Window:CreateTab("Doors", Nil) -- Title, Image
    local Section = Tab:CreateSection("Doors")
-   local Button = Tab:CreateButton({
-   Name = "Doors tool giver",
+local Button = Tab:CreateButton({
+   Name = "Doors item giver",
    Callback = function()
    -- The function that takes place when the button is pressed
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Darli17/Entities/refs/heads/main/Tools"))()"))()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Darli17/Entities/refs/heads/main/Tools"))()"))()
+
    end,
 })
-else
-   warn("Wrong Game")
-end
 
-if game.placeId == 6516141723
-   then
-   local Tab = Window:CreateTab("Doors", Nil) -- Title, Image
-   local Section = Tab:CreateSection("Doors")
-   local Button = Tab:CreateButton({
-   Name = "Leaf Hub",
+local Button = Tab:CreateButton({
+   Name = "Doors Leaf Hub",
    Callback = function()
    -- The function that takes place when the button is pressed
-loadstring(game:HttpGet("loadstring(game:HttpGet("https://pastebin.com/raw/wbJTDuKw"))()
+         loadstring(game:HttpGet("https://pastebin.com/raw/wbJTDuKw"))() 
    end,
 })
-else
-   warn("Wrong Game")
-end
 
-      if game.placeId == 6516141723
-   then
-   local Tab = Window:CreateTab("Doors", Nil) -- Title, Image
-   local Section = Tab:CreateSection("Doors")
-   local Button = Tab:CreateButton({
+local Button = Tab:CreateButton({
    Name = "Devil Hub",
    Callback = function()
    -- The function that takes place when the button is pressed
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/doors/main/devilshubgui"))(); 
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/doors/main/devilshubgui"))(); 
+   end,
+   })
+
+local Button = Tab:CreateButton({
+   Name = "Lore?",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/Chillseek.lua",true))()
    end,
 })
-else
-   warn("Wrong Game")
-end
