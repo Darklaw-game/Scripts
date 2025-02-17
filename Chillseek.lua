@@ -26,10 +26,9 @@ local entity = spawner.Create({
 
 	Entity = {
 
-		Name = "A-60",
+		Name = "Guiding Light",
 
-		Asset = "https://github.com/Idk-lol2/Seek/blob/main/seeklolv5.rbxm?raw=true",
-
+		Asset = "https://create.roblox.com/store/asset/12382716567/Doors-Seek-Killer?keyword=doors&pageNumber=3&pagePosition=0
 		HeightOffset = 0
 
 	},
@@ -68,9 +67,9 @@ local entity = spawner.Create({
 
 	Movement = {
 
-		Speed = 10,
+		Speed = 10000,
 
-		Delay = 5,
+		Delay = 2,
 
 		Reversed = false
 
@@ -78,7 +77,7 @@ local entity = spawner.Create({
 
 	Rebounding = {
 
-		Enabled = true,
+		Enabled = false,
 
 		Type = "Ambush", -- "Blitz"
 
@@ -116,7 +115,7 @@ local entity = spawner.Create({
 
 		Type = "Curious", -- "Guiding"
 
-		Hints = {"Hello!", "i am a light", "my brother guiding light always takes the lead, so my turn", "but first i must take care of him"},
+		Hints = {"Hmm", "You died to {}[Guiding_Light}{}", "i wonder why, did you drive him insane?", "i guess im going to try to contain him", "ill meet you in garden"},
 
 		Cause = "Curious Light"
 
@@ -266,11 +265,11 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
 
 achievementGiver({
 
-    Title = "Chill Seek",
+    Title = "Curious Light",
 
-    Desc = "chill guy",
+    Desc = "Guiding light is insane, Lets end This!",
 
-    Reason = "good person" ,
+    Reason = "Die to Guiding Light" ,
 
     Image = "rbxassetid://120656641387880"
 
