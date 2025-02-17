@@ -165,7 +165,9 @@ end
 
 
    local Tab = Window:CreateTab("Doors", Nil) -- Title, Image
+
    local Section = Tab:CreateSection("Doors")
+
 local Button = Tab:CreateButton({
    Name = "Doors item giver",
    Callback = function()
