@@ -192,7 +192,7 @@ local Button = Tab:CreateButton({
    })
 
 local Button = Tab:CreateButton({
-   Name = "Lore?",
+   Name = "Lore",
    Callback = function()
    -- The function that takes place when the button is pressed
          loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/Chillseek.lua",true))()
