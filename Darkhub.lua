@@ -128,7 +128,6 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local TPTab = Window:CreateTab("Misc", nil) -- Title, Image
 
 local MainSection = MainTab:CreateSection("Misc")
 
@@ -148,7 +147,7 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-   local Tab = Window:CreateTab("MM2", Nil) -- Title, Image
+   local Tab = Window:CreateTab("MM2", 4483362458) -- Title, Image
    local Section = Tab:CreateSection("MM2")
    local Button = Tab:CreateButton({
    Name = "MM2",
@@ -158,7 +157,7 @@ local Button = MainTab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Doors", "moon")
+local Tab = Window:CreateTab("Doors", 4483362458) -- Title, Image
 Tab:CreateSection("Doors")
 
 local Button = Tab:CreateButton({
