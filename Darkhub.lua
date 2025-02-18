@@ -157,7 +157,7 @@ local Button = MainTab:CreateButton({
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
    end,
 })
-else
+
 local Tab = Window:CreateTab("Doors", "moon")
 Tab:CreateSection("Doors")
 
