@@ -158,10 +158,8 @@ local Button = MainTab:CreateButton({
    end,
 })
 else
-
-local Tab = Window:CreateTab("Doors", Nil) -- Title, Image
-
-   local Section = Tab:CreateSection("Doors")
+local Tab = Window:CreateTab("Doors", "moon")
+Tab:CreateSection("Doors")
 
 local Button = Tab:CreateButton({
    Name = "Doors item giver",
