@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local MainTab = Window:CreateTab("🏠 Home", nil) -- Title, Image
+local MainTab = Window:CreateTab("🏠 Home", 4483362458) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
@@ -154,41 +154,5 @@ local Button = MainTab:CreateButton({
    Callback = function()
    -- The function that takes place when the button is pressed
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
-   end,
-})
-
-local Tab = Window:CreateTab("Doors", 4483362458) -- Title, Image
-Tab:CreateSection("Doors")
-
-local Button = Tab:CreateButton({
-   Name = "Doors item giver",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/Darli17/Entities/refs/heads/main/Tools"))()"))()
-
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Doors Leaf Hub",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-         loadstring(game:HttpGet("https://pastebin.com/raw/wbJTDuKw"))() 
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Devil Hub",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/doors/main/devilshubgui"))(); 
-   end,
-   })
-
-local Button = Tab:CreateButton({
-   Name = "Lore",
-   Callback = function()
-   -- The function that takes place when the button is pressed
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/Scripts/refs/heads/main/Chillseek.lua",true))()
    end,
 })
