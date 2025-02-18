@@ -159,7 +159,7 @@ local Button = MainTab:CreateButton({
 })
 else
 
-
+local Tab = Window:CreateTab("Doors", Nil) -- Title, Image
 
    local Section = Tab:CreateSection("Doors")
 
