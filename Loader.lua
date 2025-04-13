@@ -36,7 +36,7 @@ local SBTab = Window:CreateTab("Slap Battles", 4483362458) -- Title, Image
 local Button = SBTab:CreateButton({
    Name = "Step 1",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/OPS/refs/heads/main/AstralV3.1.Lua")()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Darklaw-game/OPS/refs/heads/main/AstralV3.1.Lua",true))()
    -- The function that takes place when the button is pressed
    end,
 })
